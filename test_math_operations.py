@@ -53,3 +53,7 @@ def test_fibonacci():
     assert fibonacci(5) == 5
     assert fibonacci(6) == 8
     assert fibonacci(7) == 13
+
+def test_broken():
+    """Намеренно сломанный тест для демонстрации CI/CD."""
+    assert 2 + 2 == 5  # Это неправильно! 2+2=4
